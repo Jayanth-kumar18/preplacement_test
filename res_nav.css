@@ -1,0 +1,29 @@
+/* Customize the navbar background and text color */
+.navbar {
+    background-color: #f8f9fa;
+    color: #333333;
+  }
+  
+  /* Adjust the navbar brand (logo) styling */
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  /* Customize the color of the hamburger icon */
+  .navbar-toggler-icon {
+    color: #333333;
+  }
+  
+  /* Media query to collapse the navbar into a hamburger menu on small screens */
+  @media (max-width: 767px) {
+    /* Hide the navbar links by default */
+    .navbar-nav {
+      display: none;
+    }
+    
+    /* Show the collapsed navbar when the hamburger icon is clicked */
+    .navbar-collapse.collapse.show .navbar-nav {
+      display: block;
+    }
+  }
+  
