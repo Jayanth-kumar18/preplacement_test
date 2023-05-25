@@ -9,4 +9,6 @@ function sumOfEvenNumbers(array) {
   
     return sum;
   }
-  
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const result = sumOfEvenNumbers(numbers);
+console.log(result); // Output: 30
